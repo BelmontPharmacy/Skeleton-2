@@ -27,27 +27,6 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
   
   <style type="text/css">
-    img#bg {
-    /* Set rules to fill background
-    min-height: 100%;
-    min-width: 1024px; */
-
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-
-    /* Set up positioning
-    position: fixed;
-    top: 0;
-    left: 0; */
-  }
-
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-}
   </style>
 
 </head>
@@ -55,19 +34,18 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– --> http://jonvilma.com/images/landscape-18.jpg
-  <div class="container">
+  <div class="container">    
+    
+    <div class="row">
+      <div class="one column" >
+        <div style="height:200px; background:#a67fc1"></div>
+      </div>
+    </div>
     
     
     <div class="row">
       <div class="one column" >
         <img src="http://jonvilma.com/images/landscape-18.jpg" id="bg" alt="">
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="three columns" style="margin-top: 25%; border:dotted grey 1px; padding:2px">
-        <h4>Basicc Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
       </div>
     </div>
     
